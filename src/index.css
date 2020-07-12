@@ -1,0 +1,49 @@
+.App {
+  background-color: darkslategrey;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.main-heading {
+  font-weight: bolder;
+  font-size: 66px;
+  margin: 4% 1% 2% 1%;
+  color: white;
+  margin: 10px;
+  font-family: fantasy;
+}
+
+.outer-div {
+  margin: 2% 35% 2% 35%;
+}
+
+.public-cloud-div {
+  border: solid burlywood;
+  background-color: burlywood;
+  height: 304px;
+  float: left;
+  /* margin: 10px 0px 0px 32%;
+  width: 15%; */
+  border-radius: 27px;
+}
+
+.private-cloud-div {
+  border: solid blueviolet;
+  background-color: blueviolet;
+  height: 304px;
+  float: right;
+  /* margin: 10px 32% 0px 0px;
+  width: 15%; */
+  border-radius: 27px;
+}
+
+.private-cloud-table {
+  border: 1px solid #ccc;
+  margin: 42px;
+}
+
+.private-cloud-cell {
+  border: 1px solid white;
+}
